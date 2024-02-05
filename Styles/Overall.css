@@ -1,0 +1,94 @@
+body {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+.lista {
+  font-weight: 375;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+ol, ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+p {
+  font-weight: 450;
+  font-style: oblique;
+}
+
+table {
+  margin-top: 20px; 
+  border-collapse: collapse;
+  width: 70%;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+tfoot {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+form {
+  margin-top: 20px;
+  width: 70%;
+  border-collapse: collapse;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  border: transparent;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #aaa;
+}
+
+form > div {
+  margin-bottom: 10px;
+}
+
+form > div > label {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+  margin-right: 10px;
+}
